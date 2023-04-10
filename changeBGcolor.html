@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Background Color Example</title>
+  <script>
+    function changeBgColor(element, newColor) {
+      element.style.backgroundColor = newColor;
+    }
+  </script>
+</head>
+<body>
+  <h1 id="heading">Hello, World!</h1>
+  <button onclick="changeBgColor(document.getElementById('heading'), 'blue')">Change Background Color to Blue</button>
+</body>
+</html>
